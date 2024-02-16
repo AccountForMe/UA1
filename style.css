@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
-    color: white;
+    background: #FFF6D8;
+    color: black;
   }
   
   nav {
@@ -78,7 +78,7 @@ body {
     width: 100%;
     height: 500px;
     background: rgb(50, 50, 50);
-    background: url(https://github.com/AccountForMe/UA1/blob/main/ImageTete.png?raw=true) no-repeat 50% 0% fixed;
+    background: url(https://github.com/AccountForMe/UA1/blob/main/imagetetee.png?raw=true) no-repeat 50% 0% fixed;
     background-size: 130%;
     overflow: hidden;
   }
@@ -89,19 +89,22 @@ body {
     left: 0;
     width: 100%;
     padding: .3em;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: lighter;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
   
   .content-wrapper {
     width: 80%;
-    height: 3000px;
+    height: 50%;
     padding: 1em 10%;
   }
   
   .content-wrapper h1 {
     margin: 0;
-    color: rgb(220, 120, 0);
+    color: #78C7FA;
   }
   
   .content-wrapper p {
@@ -112,10 +115,28 @@ body {
   /* 3D */
 
   #parametre{
-    width: 600px;
+    width: 90%;
     height: 600px;
     margin: auto;
-    border: 3px solid green;
+    border: 3px solid #EFDFAA;
     padding: 10px;
-    
+  }
+
+  .footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  
+  .footer1 li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer1 a {
+    text-decoration: none;
+    color: #333;
+  }
+  footer a:hover {
+    color: rgb(220, 120, 0);
   }

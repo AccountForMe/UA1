@@ -7,39 +7,52 @@
   <link rel="stylesheet" href="style.css">
   <!-- SCRIPT pour A-Frame -->
   <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-  <!-- Java script -->
-  
 </head>
 
 <body>
   <nav>
   <div class="nav-bg"></div>
-  <ul>
-    <li><a href="">Link</a></li>
-    <li><a href="">Link</a></li>
-    <li><a href="">Link</a></li>
-    <li><a href="">Link</a></li>
-  </ul>
-</nav>
+    <ul>
+      <li><a href="">Communauté</a></li>
+      <li><a href="">Service</a></li>
+      <li><a href="">Histoir</a></li>
+      <li><a href="">Documentation</a></li>
+      </ul>
+  </nav>
 <div class="hero">
-  <h1>Something Inspiring</h1>
+  <h1>A - Frame</h1>
 </div>
+<!-- Paragraphe -->
 <div class="content-wrapper">
-  <h1>Some Title</h1>
-  <p>Cray marfa artisan mlkshk tote bag. Freegan man braid master cleanse, pork belly retro artisan man bun hammock cronut quinoa roof party. Pop-up cardigan poutine meditation, affogato stumptown wolf fashion axe pug. Listicle paleo seitan keytar, twee kinfolk salvia meggings cold-pressed retro fingerstache typewriter organic cred. Tacos church-key gochujang, swag ugh squid put a bird on it VHS fingerstache ennui cardigan craft beer. Taxidermy beard you probably haven't heard of them four dollar toast PBR&B. Poutine lo-fi blue bottle, twee hammock sriracha godard.</p>
-  
-  <p>Cardigan DIY dreamcatcher stumptown. Brunch yuccie swag, selfies leggings echo park quinoa cred squid cray typewriter. Tofu crucifix small batch typewriter irony, blog iPhone cold-pressed tousled pork belly polaroid. Direct trade heirloom deep v chicharrones kale chips. 8-bit viral kale chips food truck chillwave pork belly, art party cornhole hoodie banjo freegan. Tacos vice selfies, wolf tumblr vinyl affogato leggings sartorial forage plaid deep v cronut schlitz you probably haven't heard of them. Meditation normcore fap, pork belly 3 wolf moon pabst next level tacos gochujang franzen.</p>
-  
-  <p>Ethical keytar slow-carb forage before they sold out meggings. Kombucha church-key kickstarter, pork belly scenester beard ugh ennui ramps gochujang pop-up chambray retro tacos messenger bag. Lo-fi pour-over tote bag migas brunch deep v shoreditch slow-carb before they sold out selfies. Meh hashtag kombucha ennui venmo. Lo-fi seitan normcore hoodie biodiesel celiac. Pickled master cleanse kitsch tofu, freegan vinyl letterpress. Tote bag banjo 90's, brunch XOXO retro cred seitan venmo master cleanse.</p>
+  <h1>Qu'est que c'est</h1>
+  <p>A-Frame est un framework open-source libre sous licence MIT pour la construction d'expériences de réalité virtuelle (VR)1. Il est maintenu par Mozilla et par la communauté WebVR (en). C'est un framework basé sur un système d'entités pour Three.js où les développeurs peuvent créer de la 3D et des scènes en réalité virtuelle WebVR grâce à des balises HTML. En utilisant ce langage déclaratif, il peut simplifier le travail de développement par rapport à la programmation en WebGL2,3.</p>
+
+  <p>C'est avec React VR, (utilisant les mêmes principes que React4) un des principaux outils développé par Mozilla pour faciliter le développement de la réalité virtuelle dans le navigateur5.</p>
+
+  <p>Différentes entités sont prédéfinies et préfixées par un a-, telles que a-camera, a-cylinder, a-plane, a-sphere, a-light, a-sky, a-image, a-video, et quelques autres a-model6.</p>
 </div>
+  <!-- Java script -->
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="script.js"></script>
-
+<!-- a framediv -->
 <div id="parametre">
-  <a-scene embedded>
-    <a-box position="-2 1 -3" color="#FFD700"></a-box>
-    
+  <a-scene embedded background="color: #F2E8C6">
+
+    <a-box position="-2 1 -3" color="#FFD700" height="3"></a-box>
+    <a-cylinder position="-1 2 -3" radius="0.5" height="4" color="#FFC65D" rotation="0 0 20"></a-cylinder>
+    <a-plane position="-3 0 -4" rotation="-70 -30 0" width="40" height="4" color="#7BC8A4"></a-plane>
+    <a-plane position="-3 0 -8s" rotation="-70 150 0" width="40" height="4" color="#7BC8A4"></a-plane>
+    <a-plane position="0 -1 0" rotation="-90 0 0" width="400" height="400" color="#7BC8A4"></a-plane>
+
   </a-scene>
 </div>
+<!-- pied de page -->
+<footer>
+  <ul class="footer1">
+    <li><a>A-Frame2024</a></li>
+    <li><a>Legal</a></li>
+    <li><a>Terme d'utilisation</a></li>
+  </ul>
+</footer>
 </body>
 </html>
