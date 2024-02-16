@@ -78,7 +78,7 @@ body {
     width: 100%;
     height: 500px;
     background: rgb(50, 50, 50);
-    background: url(https://doninmass.files.wordpress.com/2013/04/walking-in-rain-painting-wallpaper-hd.jpg) no-repeat 50% 0% fixed;
+    background: url(https://github.com/AccountForMe/UA1/blob/main/Screenshot%202024-02-15%20193642.png?raw=true) no-repeat 50% 0% fixed;
     background-size: 130%;
     overflow: hidden;
   }
@@ -107,4 +107,15 @@ body {
   .content-wrapper p {
     font-family: "Open Sans";
     text-indent: 1.5em;
+  }
+
+  /* 3D */
+
+  #parametre{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    
   }
